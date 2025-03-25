@@ -212,8 +212,7 @@
 }
 #highlight div:hover{
     transform: scale(1.020);
-    /* transform:scale(.9); */
-
+    transform:scale(.9);
 }
 #Latest .special{
     align-items: center;
@@ -256,7 +255,7 @@
     box-shadow: 6px 6px  10px 4px rgb(71, 68, 68);  
 }
 #option div:hover{
-    box-shadow: 6px 6px  10px 4px rgb(71, 68, 68);
+    /* box-shadow: 6px 6px  10px 4px rgb(71, 68, 68); */
     transform:scale(1.0010);
 }
 .op1{
