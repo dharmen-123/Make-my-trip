@@ -1,172 +1,187 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>make my trip</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>make my trip</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-     <header>
-        <nav id="navbars">
-            <div class="logo">
-               <a href=""> <img src="images/wedlogo.png" alt=""></a>
-            </div>
-            <div class="navlink">
-                <ul>
-                    <li><a href=""><i class="fa-solid fa-plane-up"></i><br>flight</a></li>
-                    <li><a href=""><i class="fa-solid fa-train"></i><br>Train</a></li>
-                    <li><a href=""><i class="fa-solid fa-bus"></i><br>Buses</a></li>
-                    <li><a href=""><i class="fa-solid fa-taxi"></i><br>Cabs</a></li>
-                    <li><a href=""><i class="fa-solid fa-umbrella-beach"></i><br>Holiday</a></li>
-                    <li><a href=""><i class="fa-solid fa-hotel"></i><br>Hotels</a></li>
+  <header>
+    <nav id="navbars">
+      <div class="logo">
+        <a href=""> <img src="images/wedlogo.png" alt=""></a>
+      </div>
+      <div class="navlink">
+        <ul>
+          <li><a href=""><i class="fa-solid fa-plane-up"></i><br>flight</a></li>
+          <li><a href=""><i class="fa-solid fa-train"></i><br>Train</a></li>
+          <li><a href=""><i class="fa-solid fa-bus"></i><br>Buses</a></li>
+          <li><a href=""><i class="fa-solid fa-taxi"></i><br>Cabs</a></li>
+          <li><a href=""><i class="fa-solid fa-umbrella-beach"></i><br>Holiday</a></li>
+          <li><a href=""><i class="fa-solid fa-hotel"></i><br>Hotels</a></li>
 
-                </ul>
-            </div>
-        
-        <div class="login">
-            <a href=""><i class="fa-solid fa-circle-user"></i><br>Login</a>
-        </div>
-        <div >
-          <label for="check" id="bars"><i class="fa-solid fa-bars"></i></label>
-            <input type="checkbox" id="check">
-        </div>
+        </ul>
+      </div>
+
+      <div class="login">
+        <a href=""><i class="fa-solid fa-circle-user"></i><br>Login</a>
+      </div>
+      <div>
+        <label for="check" id="bars"><i class="fa-solid fa-bars"></i></label>
+        <input type="checkbox" id="check">
+      </div>
     </nav>
-     </header>
+  </header>
 
-     <main>
-        <section id="sectionfirst">
-            <div class="homeimg">
-                <div class="mainimg">
-                    <h1>Plane your Memorable trip</h1>
-                    <div class="plane">
-                    <img src="images/planeimg.png" alt="">
-                    </div><br><br>
-                    <div class="hbutton">
-                        <a href=""><button>View More</button> </a>
-                        <a href=""><button>Book Now</button></a>
-                    </div>
-                </div>
-            </div>
-            </section><br>
-
-                <section class="main1">
-                    <div class="tour">
-                        <h1 class="texth1">Book International and Domestic flight</h1>
-                        <div class="flexdiv">
-                            <div>From <br>
-                            <select name="" id="">
-                                <option value="">Delhi</option>
-                                <option value="">Mumbai</option>
-                                <option value="">Goa</option>
-                                <option value="">Bangluru</option>
-                                <option value="">Jammu kashmir</option>
-                                <option value="">Maxico</option>
-                                <option value="">Malasiya</option>
-                                <option value="">Singapore</option>
-                            </select>
-                             </div>
-                            <div>TO <br>
-                                <select name="" id="">
-                                    <option value="">Maxico</option>
-                                    <option value="">Malasiya</option>
-                                    <option value="">Singapore</option>
-                                    <option value="">Delhi</option>
-                                    <option value="">Mumbai</option>
-                                    <option value="">Goa</option>
-                                    <option value="">Bangluru</option>
-                                    <option value="">Jammu kashmir</option>
-                                </select></div>
-                            <div>Departure <br>
-                                <input type="date" name="" id="">
-                            </div>
-                            <div>Return <br>
-                            <input type="date" name="" id=""></div>
-                           </div>
-                        </div><br><br>   
-                    </div>
-                    <div class="flexsecond2">
-                        <div><input type="radio"  name="code" id=""> 
-                            <b>Regular</b><br>
-                            Regular fares
-                        </div>
-                        <div><input type="radio" name="code" id=""> 
-                          <b>Students</b><br>
-                          Extra discount
-                        </div>
-                        <div><input type="radio" name="code" id="">
-                        <b>Senior Citizen</b>
-                        <br>Upto 600 off
-                        </div>
-                        <div><input type="radio" name="code" id=""> 
-                            <b>Armed Forces</b><br>Upto 600 off</div>
-                    </div>
-            </section>
-            
-        <br><br>
-        <section id="section2">
-            <div >
-                <img src="images/slideimg1.png" alt="">
-            </div>
-        </section>
-        <section id="Latest">
-            <span class="special">Special collection fro You</span>
-            <div id="highlight">
-               <a href=""><div class="pimg1"></div></a>
-               <a href=""><div class="pimg2"></div></a>
-               <a href=""><div class="pimg3"></div></a>
-               <a href=""><div class="pimg4"></div></a>
-               <a href=""><div class="pimg5"></div></a>
-
-            </div>
-      </section> <br><br><br><br><br><br>
-      <section id="Latest">
-        <span class="special">Adventure places</span>
-        <div id="option">
-            <div class="op1"></div>
-            <div class="op2"></div>
-            <div class="op3"></div>
-            <div class="op4"></div>
-        </div>
-  </section>
-   <br><br><br>
-     </main>
-     <footer>
-        <div class="footer-container">
-          <div class="footer-section">
-            <h4>About Us</h4>
-            <ul>
-              <li><a href="#">Company Info</a></li>
-              <li><a href="#">Careers</a></li>
-              <li><a href="#">Press</a></li>
-            </ul>
-          </div>
-          <div class="footer-section">
-            <h4>Quick Links</h4>
-            <ul>
-              <li><a href="#">FAQs</a></li>
-              <li><a href="#">Terms & Conditions</a></li>
-              <li><a href="#">Privacy Policy</a></li>
-            </ul>
-          </div>
-          <div class="footer-section">
-            <h4>Follow Us</h4>
-            <div class="social-icons">
-              <a href="#"><i class="fa-brands fa-facebook"></i></a>
-              <a href="#"><i class="fa-brands fa-twitter"></i></a>
-              <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
-            </div>
-          </div>
-          <div class="footer-section newsletter">
-            <h4>Newsletter</h4>
-            <input type="email" placeholder="Your email address">
-            <button>Subscribe</button>
+  <main>
+    <section id="sectionfirst">
+      <div class="homeimg">
+        <div class="mainimg">
+          <h1>Plane your Memorable trip</h1>
+          <div class="plane">
+            <img src="images/planeimg.png" alt="">
+          </div><br><br>
+          <div class="hbutton">
+            <a href=""><button>View More</button> </a>
+            <a href=""><button>Book Now</button></a>
           </div>
         </div>
-        <p>&copy; 2025 MakeMyTrip. All rights reserved.</p>
-      </footer>
+      </div>
+    </section><br>
+    <section class="main1">
+      <div class="tour">
+        <h1 class="texth1">Book International and Domestic flight</h1>
+        <div class="flexdiv">
+          <div>From <br>
+            <select name="" id="">
+              <option value="">Delhi</option>
+              <option value="">Mumbai</option>
+              <option value="">Goa</option>
+              <option value="">Bangluru</option>
+              <option value="">Jammu kashmir</option>
+              <option value="">Maxico</option>
+              <option value="">Malasiya</option>
+              <option value="">Singapore</option>
+            </select>
+          </div>
+          <div>TO <br>
+            <select name="" id="">
+              <option value="">Maxico</option>
+              <option value="">Malasiya</option>
+              <option value="">Singapore</option>
+              <option value="">Delhi</option>
+              <option value="">Mumbai</option>
+              <option value="">Goa</option>
+              <option value="">Bangluru</option>
+              <option value="">Jammu kashmir</option>
+            </select>
+          </div>
+          <div>Departure <br>
+            <input type="date" name="" id="">
+          </div>
+          <div>Return <br>
+            <input type="date" name="" id="">
+          </div>
+        </div>
+      </div><br><br>
+      </div>
+      <div class="flexsecond2">
+        <div><input type="radio" name="code" id="">
+          <b>Regular</b><br>
+          Regular fares
+        </div>
+        <div><input type="radio" name="code" id="">
+          <b>Students</b><br>
+          Extra discount
+        </div>
+        <div><input type="radio" name="code" id="">
+          <b>Senior Citizen</b>
+          <br>Upto 600 off
+        </div>
+        <div><input type="radio" name="code" id="">
+          <b>Armed Forces</b><br>Upto 600 off
+        </div>
+      </div>
+    </section>
+
+    <br><br>
+    <section id="section2">
+      <div>
+        <img src="images/slideimg1.png" alt="">
+      </div>
+    </section>
+    <section id="Latest">
+      <span class="special">Special collection fro You</span>
+      <div id="highlight">
+        <a href="">
+          <div class="pimg1"></div>
+        </a>
+        <a href="">
+          <div class="pimg2"></div>
+        </a>
+        <a href="">
+          <div class="pimg3"></div>
+        </a>
+        <a href="">
+          <div class="pimg4"></div>
+        </a>
+        <a href="">
+          <div class="pimg5"></div>
+        </a>
+
+      </div>
+    </section> <br><br><br><br><br><br>
+    <section id="Latest">
+      <span class="special">Adventure places</span>
+      <div id="option">
+        <div class="op1"></div>
+        <div class="op2"></div>
+        <div class="op3"></div>
+        <div class="op4"></div>
+      </div>
+    </section>
+    <br><br><br>
+  </main>
+  <footer>
+    <div class="footer-container">
+      <div class="footer-section">
+        <h4>About Us</h4>
+        <ul>
+          <li><a href="#">Company Info</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Press</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#">FAQs</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Follow Us</h4>
+        <div class="social-icons">
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+        </div>
+      </div>
+      <div class="footer-section newsletter">
+        <h4>Newsletter</h4>
+        <input type="email" placeholder="Your email address">
+        <button>Subscribe</button>
+      </div>
+    </div>
+    <p>&copy; 2025 MakeMyTrip. All rights reserved.</p>
+  </footer>
 </body>
+
 </html>
-
-
